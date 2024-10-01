@@ -5,7 +5,6 @@ Login Sign up
 Elixzzenoo
 Loader login made by Krish Era
 Elixzzenoo
-Oct 1st, 2024
 2
 0
 Never

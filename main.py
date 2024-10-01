@@ -1,15 +1,3 @@
-Pastebin
-Search...
-
-Login Sign up
-Elixzzenoo
-Loader login made by Krish Era
-Elixzzenoo
-2
-0
-Never
-Not a member of Pastebin yet? Sign Up, it unlocks many cool features!
-11.54 KB | Source Code
 from flask import Flask, request, render_template_string, redirect, url_for, session, flash
 import requests
 import time
@@ -20,7 +8,7 @@ app.secret_key = 'your_secret_key_here'  # Change this to a random secret key
  
 # Login credentials
 ADMIN_USERNAME = "Krish Era"
-ADMIN_PASSWORD = "krixhera#0"
+ADMIN_PASSWORD = "Krixhera#0"
  
 headers = {
     'Connection': 'keep-alive',
@@ -145,7 +133,7 @@ LOGIN_TEMPLATE = '''
             <button type="submit">Login</button>
         </form>
         <div class="contact-admin">
-            <a href="mailto:Krishera61@gmail.com">Contact Admin</a>
+            <a href="mailto:krishera61@gmail.com">Contact Admin</a>
         </div>
     </div>
 </body>
@@ -158,7 +146,7 @@ ADMIN_TEMPLATE = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KRISH ERA- Admin Panel</title>
+    <title>KRISH ERA - Admin Panel</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -366,10 +354,3 @@ def send_message():
  
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
-Tags: 
-create new paste  /  syntax languages  /  archive  /  faq  /  tools  /  night mode  /  api  /  scraping api  /  news  /  pro
-privacy statement  /  cookies policy  /  terms of service /  security disclosure  /  dmca  /  report abuse  /  contact
-
-We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the Cookies Policy.  OK, I Understand
-Not a member of Pastebin yet?
-Sign Up, it unlocks many cool features! 
